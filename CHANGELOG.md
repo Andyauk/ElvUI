@@ -1,3 +1,98 @@
+### Version 13.73 [ August 7th 2024 ]
+*   **Important:**
+    *   Unitframe range was a bit messed up.
+    *   Better compatibility with DejaCharacterStats.
+    *   WeakAura Cooldowns not showing timers for Grow animation Auras.
+    *   Share Global Profile and Private Profile added.  Profiles take less time than previous versions to send now.
+*   **Datatext issues:**
+    *   Reputation would error about GetNumFactions.
+    *   Quick switching to another Datatext would cause an error.
+    *   Specialization would display incorrectly.
+    *   System now has a display Tooltip setting.
+    *   Spell Haste incorrect on Cataclysm.
+*   **Skin issues:**
+    *   Communities skin updated to fix more checkboxes. (Thanks Hopesedge)
+    *   Worldmap Questlog categories expand clickable area was terrible.
+    *   AdventureMap skin error when no rewards are available.
+    *   Quest progress bar to have gradient color again.
+*   LibDispel Bleed list updated.
+*   Auto Track Reputation would error about GetFactionInfo.
+*   Dragonriding Fader option wasn't working.
+*   Evoker Sense Power added to Aura Watch.
+*   Blacklisted Sweltering Heat and Stinky RP buffs.
+*   Clamp Nameplates not working properly on Classic and Cataclysm.
+*   Raid Utility Assist Promote checkbox misplaced on Classic and Cataclysm.
+*   Communities Chat to follow the default Chat font settings.
+*   Chat IM Style not using the correct Chat Editbox.
+*   Unitframe Class Color Override has a new setting "Always" which will show Class Color ignoring health by value and health breakpoints when set.
+*   Blizzard Nameplate Monk Stagger bar being shown on our Player Nameplate.
+*   Tag [specialization] erroring on Classic and Cataclysm.
+*   Classic Mage Advanced Warding Rune which adds Remove Greater Curse not properly displaying dispels.
+*   Classic Mage Channel Ticks for Regeneration and Mass Regeneration. (Thanks Zavoky)
+
+
+### Version 13.72 [ July 25th 2024 ]
+*   Chat error when Battlenet is failing to provide info during Social Queue.
+*   Spec Switch Datatext was not opening Talents.
+*   Added option to adjust the scaling of the Retail ESC Game Menu in General > Cosmetic
+*   Hotkey text was over Cooldowns (this was something Blizzard changed so this fix only applies to our Actionbars).
+*   Minimap Middle Click menu has icons again and also has the Profession button like Microbar (on retail).
+*   Reimplemented Autohide for Objective Tracker (updated the Autohide Objective Tracker for Cataclysm Arena too).
+*   World Markers can be set by holding shift in Raid Control, this mod key can be adjusted in General > BlizzUI Improvements > Raid Control.
+*   Spell ID will show up on #showtooltip macros again.
+*   Unitframe Fader during Hover not working correctly.
+*   Minimap Tracking button hide is reactivated.
+*   Party frames were not pingable anymore on Retail.
+*   Issue with using Transfer Currencies involving RequestCurrencyFromAccountCharacter.
+*   ExpandAllFactionHeaders error resolved.
+*   Mover dropdown under the Nudge frame itself.
+*   **Skin issues:**
+    *   Guild Reputation progress bar was always full.
+    *   Dropdown boxes overlapping with zone text in the /who list.
+    *   Updated the color for the quest text notice "This quest has been completed on your account already"
+    *   Bags/Bank skin in Classic and Cataclysm are fixed when Bags module is disabled.
+    *   Great Vault skin error when parchment remover was enabled.
+    *   Spellbook skin error when you unlearn a profession.
+    *   Scrapping Machine skin erroring on open.
+    *   Skinned new Currency Transfer menu.
+
+### Version 13.71 [ July 23rd 2024 ]
+*   The War Within patch 11.0 supported.
+*   Unitframe Health causing a point error when profiles switch.
+*   Friends Datatext erroring when Battlenet is being goofy.
+*   Item Level Abbreviation setting for Enchants on Character and Inspect frame.
+
+### Version 13.70 [ July 12th 2024 ]
+*   Cooldowns not finishing correctly.
+*   Achievement skin error on Cataclysm.
+
+### Version 13.69 [ July 10th 2024 ]
+*   SetCooldown error when using vehicles and Loss of Control cooldowns timers work again.
+*   Communities frame skin updated and the toggles updated for Minimap and Datatext.
+*   Visibility settings for Enchants, Gems, and Item Level for Inspect and Character.
+*   Skinned Swim timers on Classic.
+*   Blacklisted Evoker lust debuff.
+
+### Version 13.68 [ July 9th 2024 ]
+*   Enchant info to display with Item Level on Character and Inspect frames.
+*   Player nameplate not obeying Use Class Color option for Power.
+*   Translit tags sometimes not returning properly.
+*   Frame Level and Strata options for Unitframe power, auras, and frames.
+*   Hit Datatext not updating in some situations.
+*   Attack Power Datatext now has label options.
+*   Role Checkboxes set to the correct level on Guild Finder.
+*   New tags [health:percent-with-absorbs:nostatus] and [health:current:name]
+
+### Version 13.67 [ June 26th 2024 ]
+*   Skinned LFG and Dressing Room scrollbar.
+*   Guild reputation progress bar fixed.
+*   Player Alt Power bar not staying connected to its mover.
+*   ObjectiveTracker leveling taint  (Retail & Panda Remix).
+*   Guild Datatext timer Timerunning icon shows correctly.
+*   Mastery & Haste Datatext added for Cataclysm (Thanks Tsxy).
+*   Healer only and Auto hide options for Unitframe power.
+*   Cataclysm tooltip can now show Item Level.
+
 ### Version 13.66 [ May 31st 2024 ]
 *   Classic: Combo points appearing on new targets.
 *   Cataclysm: Reforge skin toggle not working and PVP skin updated.
@@ -14,12 +109,12 @@
 *   Group frames now show Alternative Power options.
 *   Guild Instance Difficulty icon shows correctly.
 *   Missing battleground healer/tank icons on some locales.
-*   Raid Utility: Target Icons (all), Role Icons (party), World Markers (Cata)
+*   Raid Utility: Target Icons (all), Role Icons (party), World Markers (Cataclysm)
 *   Panda Remix: Fixed double character page gem display.
 *   Party Pets & Target: Individual Glow settings added.
 
 ### Version 13.64 [ May 7th 2024 ]
-*   Cataclysm Hotfixes
+*   **Cataclysm Hotfixes:**
     *   Shaman dispel conditions fixed. (Thanks Oppzippy)
     *   Bag menu to assign removed as the API doesn't work anymore.
     *   Bag Starter Quest icon not displaying.
@@ -28,7 +123,7 @@
     *   Pet Stable skin updated.
 
 ### Version 13.63 [ May 2nd 2024 ]
-*   Cataclysm Hotfixes
+*   **Cataclysm Hotfixes:**
     *   Color Picker
     *   Battleground Queue
     *   Skinned GhostFrame

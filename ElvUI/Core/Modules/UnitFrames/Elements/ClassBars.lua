@@ -116,7 +116,7 @@ function UF:Configure_ClassBar(frame)
 
 	if frame.USE_MINI_CLASSBAR and not frame.CLASSBAR_DETACHED then
 		if MAX_CLASS_BAR == 1 or frame.ClassBar == 'AdditionalPower' or frame.ClassBar == 'EclipseBar' or frame.ClassBar == 'Stagger' or frame.ClassBar == 'AlternativePower' then
-			CLASSBAR_WIDTH = CLASSBAR_WIDTH * 2/3
+			CLASSBAR_WIDTH = CLASSBAR_WIDTH * 2 / 3
 		else
 			CLASSBAR_WIDTH = CLASSBAR_WIDTH * (MAX_CLASS_BAR - 1) / MAX_CLASS_BAR
 		end
@@ -581,7 +581,7 @@ end
 -----------------------------------------------------------
 function UF:Construct_DruidEclipseBar(frame)
 	local eclipseBar = CreateFrame('Frame', '$parent_EclipsePowerBar', frame)
-	eclipseBar:CreateBackdrop('Default', nil, nil, self.thinBorders, true)
+	eclipseBar:CreateBackdrop(nil, nil, nil, self.thinBorders, true)
 
 	eclipseBar.LunarBar = CreateFrame('StatusBar', 'LunarBar', eclipseBar)
 	eclipseBar.LunarBar:Point('LEFT', eclipseBar)
